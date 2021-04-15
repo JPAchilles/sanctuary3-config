@@ -1,6 +1,6 @@
 
 [main]
-	"harvest level tooltip" = false
+	"harvest level tooltip" = true
 	"not currently harvestable string" = "✘"
 	"minimal mode separator" = " : "
 	"is currently harvestable string" = "✔"
