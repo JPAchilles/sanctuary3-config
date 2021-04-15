@@ -1,22 +1,22 @@
 {
   "standard_weights": {
     "biomesoplenty:alps": {
-      "weight": 5
+      "weight": 15
     },
     "biomesoplenty:bayou": {
       "weight": 10
     },
     "biomesoplenty:cherry_blossom_grove": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:coniferous_forest": {
       "weight": 10
     },
     "biomesoplenty:crystalline_chasm": {
-      "weight": 5
+      "weight": 10
     },
     "biomesoplenty:dead_forest": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:dryland": {
       "weight": 3
@@ -31,22 +31,22 @@
       "weight": 5
     },
     "biomesoplenty:jade_cliffs": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:lavender_field": {
       "weight": 3
     },
     "biomesoplenty:lush_desert": {
-      "weight": 1
+      "weight": 3
     },
     "biomesoplenty:meadow": {
       "weight": 7
     },
     "biomesoplenty:mystic_grove": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:ominous_woods": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:prairie": {
       "weight": 7
@@ -91,7 +91,7 @@
       "weight": 3
     },
     "biomesoplenty:wooded_wasteland": {
-      "weight": 1
+      "weight": 2
     }
   },
   "technical_biome_toggles": {
