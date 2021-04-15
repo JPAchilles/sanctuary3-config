@@ -3,7 +3,7 @@
     "byg:allium_fields": {
       "climate": "WARM",
       "dictionary": "LUSH,OVERWORLD,PLAINS,RARE",
-      "weight": 2,
+      "weight": 3,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -21,7 +21,7 @@
     "byg:alps": {
       "climate": "ICY",
       "dictionary": "COLD,MOUNTAIN,OVERWORLD,SNOWY",
-      "weight": 5,
+      "weight": 15,
       "river": "byg:alpine_foothills",
       "beach": "minecraft:beach",
       "edge": "",
@@ -35,7 +35,7 @@
     "byg:amaranth_fields": {
       "climate": "WARM",
       "dictionary": "LUSH,OVERWORLD,PLAINS,RARE",
-      "weight": 2,
+      "weight": 3,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -53,7 +53,7 @@
     "byg:ancient_forest": {
       "climate": "WARM",
       "dictionary": "FOREST,MAGICAL,OVERWORLD,RARE",
-      "weight": 1,
+      "weight": 2,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -71,7 +71,7 @@
     "byg:araucaria_savanna": {
       "climate": "DESERT",
       "dictionary": "FOREST,OVERWORLD",
-      "weight": 2,
+      "weight": 3,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -206,7 +206,7 @@
     "byg:canyons": {
       "climate": "WARM",
       "dictionary": "MOUNTAIN,OVERWORLD,PLATEAU",
-      "weight": 0,
+      "weight": 3,
       "river": "byg:canyons",
       "beach": "byg:canyon_edge",
       "edge": "byg:canyon_edge",
@@ -291,7 +291,7 @@
     "byg:crag_gardens": {
       "climate": "WARM",
       "dictionary": "JUNGLE,MAGICAL,OVERWORLD,PLATEAU,RARE,WET",
-      "weight": 1,
+      "weight": 2,
       "river": "byg:crag_gardens",
       "beach": "minecraft:beach",
       "edge": "minecraft:river",
@@ -309,7 +309,7 @@
     "byg:dead_sea": {
       "climate": "DESERT",
       "dictionary": "OCEAN,OVERWORLD,SPOOKY,WASTELAND",
-      "weight": 2,
+      "weight": 3,
       "river": "byg:dead_sea",
       "beach": "minecraft:beach",
       "edge": "",
@@ -647,7 +647,7 @@
     "byg:red_desert": {
       "climate": "DESERT",
       "dictionary": "DRY,HOT,OVERWORLD,SANDY",
-      "weight": 2,
+      "weight": 3,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -705,7 +705,7 @@
     "byg:redwood_tropics": {
       "climate": "WARM",
       "dictionary": "DENSE,FOREST,OVERWORLD,RARE",
-      "weight": 1,
+      "weight": 2,
       "river": "minecraft:river",
       "beach": "byg:rocky_beach",
       "edge": "",
@@ -727,7 +727,7 @@
     "byg:rose_fields": {
       "climate": "WARM",
       "dictionary": "LUSH,OVERWORLD,PLAINS,RARE",
-      "weight": 2,
+      "weight": 3,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -821,7 +821,7 @@
     "byg:shattered_glacier": {
       "climate": "ICY",
       "dictionary": "OVERWORLD,RARE,SNOWY",
-      "weight": 2,
+      "weight": 3,
       "river": "byg:shattered_glacier",
       "beach": "byg:basalt_barrera",
       "edge": "",
@@ -866,7 +866,7 @@
     "byg:skyris_highlands": {
       "climate": "COOL",
       "dictionary": "COLD,CONIFEROUS,MOUNTAIN,OVERWORLD",
-      "weight": 2,
+      "weight": 3,
       "river": "byg:skyris_highlands",
       "beach": "minecraft:beach",
       "edge": "byg:skyris_steeps",
@@ -972,7 +972,7 @@
     "byg:stone_forest": {
       "climate": "WARM",
       "dictionary": "DENSE,OVERWORLD,PLATEAU",
-      "weight": 1,
+      "weight": 3,
       "river": "minecraft:river",
       "beach": "byg:rocky_beach",
       "edge": "",
@@ -1056,7 +1056,7 @@
     "byg:twilight_valley": {
       "climate": "COOL",
       "dictionary": "COLD,MAGICAL,OVERWORLD,WASTELAND",
-      "weight": 2,
+      "weight": 3,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -1083,7 +1083,7 @@
     "byg:weeping_witch_forest": {
       "climate": "COOL",
       "dictionary": "COLD,FOREST,MAGICAL,OVERWORLD,RARE",
-      "weight": 1,
+      "weight": 2,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
