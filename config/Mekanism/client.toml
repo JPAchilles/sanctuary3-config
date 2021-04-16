@@ -9,7 +9,7 @@
 	enablePlayerSounds = true
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	baseSoundVolume = 1.0
+	baseSoundVolume = 0.33
 	#Scale of the text displayed on the HUD.
 	#Range: 0.25 ~ 1.0
 	hudScale = 0.6
@@ -38,7 +38,7 @@
 	alignHUDLeft = true
 	#How much light to produce if ambient lighting is enabled.
 	#Range: 1 ~ 15
-	ambientLightingLevel = 15
+	ambientLightingLevel = 10
 
 	#QIO Config
 	[client.qio]

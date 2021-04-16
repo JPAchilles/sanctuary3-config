@@ -55,39 +55,39 @@
 	#Free Runner Settings
 	[gear.free_runner]
 		#Maximum amount (joules) of energy Free Runners can contain.
-		maxEnergy = "64000"
+		maxEnergy = "640000"
 		#Amount (joules) of energy the Free Runners can accept per tick.
-		chargeRate = "320"
+		chargeRate = "3200"
 		#Energy cost/multiplier in Joules for reducing fall damage with free runners. Energy cost is: FallDamage * freeRunnerFallEnergyCost. (1 FallDamage is 1 half heart)
-		fallEnergyCost = "50"
+		fallEnergyCost = "500"
 
 	#Portable Teleporter Settings
 	[gear.portable_teleporter]
 		#Maximum amount (joules) of energy the Portable Teleporter can contain.
-		maxEnergy = "1000000"
+		maxEnergy = "10000000"
 		#Amount (joules) of energy the Portable Teleporter can accept per tick.
-		chargeRate = "5000"
+		chargeRate = "50000"
 		#Delay in ticks before a player is teleported after clicking the Teleport button in the portable teleporter.
-		delay = 0
+		delay = 10
 
 	#Atomic Disassembler Settings
 	[gear.atomic_disassembler]
 		#Maximum amount (joules) of energy the Atomic Disassembler can contain.
-		maxEnergy = "1000000"
+		maxEnergy = "8000000"
 		#Amount (joules) of energy the Atomic Disassembler can accept per tick.
-		chargeRate = "5000"
+		chargeRate = "40000"
 		#Cost in Joules of using the Atomic Disassembler as a weapon.
-		energyUsageWeapon = "2000"
+		energyUsageWeapon = "4000"
 		#Base Energy (Joules) usage of the Atomic Disassembler. (Gets multiplied by speed factor)
-		energyUsage = "10"
+		energyUsage = "80"
 		#Enable the 'Slow' mode for the Atomic Disassembler.
-		slowMode = true
+		slowMode = false
 		#Enable the 'Fast' mode for the Atomic Disassembler.
 		fastMode = true
 		#Enable the 'Vein Mining' mode for the Atomic Disassembler.
 		veinMining = true
 		#The amount of damage the Atomic Disassembler does when it has at least DisassemblerEnergyUsageWeapon power stored. (Value is in number of half hearts)
-		maxDamage = 20
+		maxDamage = 80
 		#The max Atomic Disassembler Vein Mining Block Count.
 		miningCount = 128
 		#The Range of the Atomic Disassembler Extended Vein Mining.
@@ -95,14 +95,14 @@
 		#Enable the 'Extended Vein Mining' mode for the Atomic Disassembler. (Allows vein mining everything not just ores/logs)
 		extendedMining = true
 		#The amount of damage the Atomic Disassembler does when it is out of power. (Value is in number of half hearts)
-		minDamage = 4
+		minDamage = 12
 
 	#Energy Tablet Settings
 	[gear.energy_tablet]
 		#Maximum amount (joules) of energy the Energy Tablet can contain.
-		maxEnergy = "1000000"
+		maxEnergy = "8000000"
 		#Amount (joules) of energy the Energy Tablet can accept per tick.
-		chargeRate = "5000"
+		chargeRate = "40000"
 
 	#Configurator Settings
 	[gear.configurator]
@@ -127,11 +127,11 @@
 	#Electric Bow Settings
 	[gear.electric_bow]
 		#Maximum amount (joules) of energy the Electric Bow can contain.
-		maxEnergy = "120000"
+		maxEnergy = "960000"
 		#Amount (joules) of energy the Electric Bow can accept per tick.
-		chargeRate = "600"
+		chargeRate = "4800"
 		#Cost in Joules of using the Electric Bow with flame mode active.
-		energyUsage = "1200"
+		energyUsage = "14400"
 
 	#Flamethrower Settings
 	[gear.flamethrower]

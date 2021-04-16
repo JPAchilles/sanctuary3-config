@@ -58,11 +58,11 @@
 		#Maximum number of Joules Ultimate induction cells can store.
 		ultimateStorage = "4000000000000"
 		#Maximum number of Joules Advanced induction providers can output or accept.
-		advancedOutput = "2048000"
+		advancedOutput = "8192000"
 		#Maximum number of Joules Ultimate induction providers can output or accept.
-		ultimateOutput = "131072000"
+		ultimateOutput = "1048576000"
 		#Maximum number of Joules Basic induction providers can output or accept.
-		basicOutput = "256000"
+		basicOutput = "2048000"
 		#Maximum number of Joules Basic induction cells can store.
 		basicStorage = "8000000000"
 		#Maximum number of Joules Elite induction cells can store.
@@ -70,7 +70,7 @@
 		#Maximum number of Joules Advanced induction cells can store.
 		advancedStorage = "64000000000"
 		#Maximum number of Joules Elite induction providers can output or accept.
-		eliteOutput = "16384000"
+		eliteOutput = "131072000"
 
 	#Transmitters
 	[tier.transmitters]
@@ -198,26 +198,26 @@
 		#Universal Cables
 		[tier.transmitters.energy]
 			#Internal buffer in Joules of each Basic universal cable.
-			basicCapacity = "8000"
+			basicCapacity = "32000"
 			#Internal buffer in Joules of each Ultimate universal cable.
 			ultimateCapacity = "8192000"
 			#Internal buffer in Joules of each Advanced universal cable.
-			advancedCapacity = "128000"
+			advancedCapacity = "512000"
 			#Internal buffer in Joules of each Elite universal cable.
-			eliteCapacity = "1024000"
+			eliteCapacity = "4096000"
 
 	#Energy Cubes
 	[tier.energy_cubes]
 		#Output rate in Joules of Advanced energy cubes.
-		advancedOutput = "16000"
+		advancedOutput = "64000"
 		#Maximum number of Joules Ultimate energy cubes can store.
-		ultimateStorage = "256000000"
+		ultimateStorage = "512000000"
 		#Output rate in Joules of Ultimate energy cubes.
-		ultimateOutput = "256000"
+		ultimateOutput = "2048000"
 		#Maximum number of Joules Creative energy cubes can store.
 		creativeStorage = "18446744073709551615.9999"
 		#Output rate in Joules of Basic energy cubes.
-		basicOutput = "4000"
+		basicOutput = "16000"
 		#Maximum number of Joules Basic energy cubes can store.
 		basicStorage = "4000000"
 		#Maximum number of Joules Elite energy cubes can store.
@@ -227,7 +227,7 @@
 		#Maximum number of Joules Advanced energy cubes can store.
 		advancedStorage = "16000000"
 		#Output rate in Joules of Elite energy cubes.
-		eliteOutput = "64000"
+		eliteOutput = "256000"
 
 	#Fluid Tanks
 	[tier.fluid_tanks]

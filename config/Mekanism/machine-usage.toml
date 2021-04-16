@@ -2,29 +2,29 @@
 #Machine Energy Usage Config. This config is synced from server to client.
 [usage]
 	#Energy per operation tick (Joules).
-	rotaryCondensentrator = "50"
+	rotaryCondensentrator = "400"
 	#Energy per operation tick (Joules).
-	nutritionalLiquifier = "200"
+	nutritionalLiquifier = "800"
 	#Energy per operation tick (Joules).
-	digitalMiner = "100"
+	digitalMiner = "6400"
 	#Energy per operation tick (Joules).
-	energizedSmelter = "50"
+	energizedSmelter = "400"
 	#Energy per operation tick (Joules).
-	seismicVibrator = "50"
+	seismicVibrator = "800"
 	#Energy per operation tick (Joules).
-	isotopicCentrifuge = "200"
+	isotopicCentrifuge = "1600"
 	#Energy per operation tick (Joules).
-	laser = "10000"
+	laser = "160000"
 	#Energy per operation tick (Joules).
 	modificationStation = "100"
 	#Energy per operation tick (Joules).
-	chemicalInjectionChamber = "400"
+	chemicalInjectionChamber = "3200"
 	#Energy per operation tick (Joules).
-	crusher = "50"
+	crusher = "400"
 	#Energy per operation tick (Joules).
-	pressurizedReactionBase = "5"
+	pressurizedReactionBase = "40"
 	#Energy per operation tick (Joules).
-	chemicalInfuser = "200"
+	chemicalInfuser = "1600"
 	#Energy per operation tick (Joules).
 	formulaicAssemblicator = "100"
 	#Energy per operation tick (Joules).
@@ -36,19 +36,19 @@
 	#Energy per operation tick (Joules).
 	combiner = "50"
 	#Energy per operation tick (Joules).
-	metallurgicInfuser = "50"
+	metallurgicInfuser = "200"
 	#Energy per operation tick (Joules).
-	purificationChamber = "200"
+	purificationChamber = "3200"
 	#Energy per operation tick (Joules).
-	oxidationChamber = "200"
+	oxidationChamber = "3200"
 	#Energy per operation tick (Joules).
-	chemicalCrystallizer = "400"
+	chemicalCrystallizer = "1600"
 	#Energy per operation tick (Joules).
 	fluidicPlenisher = "100"
 	#Energy per operation tick (Joules).
 	electricPump = "100"
 	#Energy per operation tick (Joules).
-	enrichmentChamber = "50"
+	enrichmentChamber = "300"
 	#Energy per operation tick (Joules).
 	chemicalDissolutionChamber = "400"
 	#Energy per operation tick (Joules).
@@ -57,9 +57,9 @@
 	#Teleporter
 	[usage.teleporter]
 		#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
-		teleporterDistance = "10"
+		teleporterDistance = "100"
 		#Flat additional cost for interdimensional teleportation.
-		teleporterDimensionPenalty = "10000"
+		teleporterDimensionPenalty = "1000000"
 		#Base Joules cost for a teleportation.
-		teleporterBase = "1000"
+		teleporterBase = "10000"
 
