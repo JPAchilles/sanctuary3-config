@@ -3,7 +3,7 @@
 	#Maximum gravity the crystallizer can work at. 0 to disable!
 	crystalliserMaximumGravity = 0
 	#Multiplier for the build speed of the Rocket Builder (0.5 is twice as fast 2 is half as fast
-	buildSpeedMultiplier = 1.0
+	buildSpeedMultiplier = 0.5
 	#Multiplier for the amount of fluid this tank can hold
 	blockTankCapacity = 1.0
 	#If true, the boots only protect the player on planets with low gravity
@@ -19,7 +19,7 @@
 
 	[General."Orbital Laser Drill"]
 		#Power multiplier for the laser drill machine
-		LaserDrillPowerMultiplier = 1.0
+		LaserDrillPowerMultiplier = 8.0
 		#List of oredictionary names of ores allowed to be mined by the laser drill if surface drilling is disabled.  Ores can be specified by just the oreName:<size> or by <modname>:<blockname>:<meta>:<size> where size is optional
 		laserDrillOres = ["oreIron", "oreGold", "oreCopper", "oreTin", "oreRedstone", "oreDiamond"]
 		#Laser drill will not mine these dimension
@@ -27,7 +27,7 @@
 		#Enables the laser drill machine
 		EnableLaserDrill = true
 		#If true, the orbital laser will actually mine blocks on the planet below
-		laserDrillPlanet = false
+		laserDrillPlanet = true
 		#True if the ores in laserDrillOres should be a blacklist, false for a whitelist
 		laserDrillOres_blacklist = false
 
@@ -40,7 +40,7 @@
 			#Enables terraforming items and blocks
 			EnableTerraforming = true
 			#EXPERIMENTAL: If set to true allows contruction and usage of the terraformer.  This is known to cause strange world generation after successful terraform
-			allowTerraforming = false
+			allowTerraforming = true
 			#Max number of blocks allowed to be changed per tick
 			terraformBlockPerTick = 1
 			#Multplier for atmosphere change speed

@@ -24,13 +24,13 @@
 	generator_stress = 4096
 	#Forge Energy conversion rate (in FE/t at max RPM).
 	#Range: > 0
-	fe_conversion = 80
+	fe_conversion = 240
 
 #Electric Motor
 [electric_motor]
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 16000
+	motor_capacity = 48000
 	#Electric Motor minimum required energy consumption in FE/t.
 	#Range: > 0
 	motor_min_consumption = 10
@@ -44,7 +44,7 @@
 #Heater
 [heater]
 	#Enable Induction Heater when attached to a Furnace Engine.
-	heater_furnace_engine_enable = false
+	heater_furnace_engine_enable = true
 	#Induction Heater internal capacity in FE.
 	#Range: > 0
 	heater_capacity = 16000
